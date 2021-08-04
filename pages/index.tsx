@@ -1,6 +1,13 @@
+import Cover from '../components/cover/Cover'
+import Navbar from '../components/navbar/Navbar'
+
 
 export default function Home() {
+
   return (
-    <h1>Homepage</h1>
+    <>
+      <Navbar />
+      <Cover />
+    </>
   )
 }
