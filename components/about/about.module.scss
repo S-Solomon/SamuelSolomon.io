@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    background-color: white;
+    color: black;
+    height: 70vh;
+    padding: 100px 0;
+    @media only screen and (max-width: 960px) {
+        flex-direction: column;
+        padding: 0;
+        height: auto;
+    }
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 55%;
+        padding: 0 100px;
+        @media only screen and (max-width: 960px) {
+            width: 90%;
+            margin: 0 auto;
+            padding: 40px 20px 50px 20px;
+        }
+        h3 {
+            margin-bottom: 30px;
+            font-size: 28px;
+            @media only screen and (max-width: 960px) {
+                font-size: 20px;
+                text-align: center;
+            }
+        }
+        p {
+            line-height: 1.5;
+        }
+    }
+
+    .wrapper {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        overflow: hidden;
+        @media only screen and (max-width: 960px) {
+            width: 100%;
+        margin-bottom: 50px;
+        }
+    }
+}    
+
+
