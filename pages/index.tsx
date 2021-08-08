@@ -7,6 +7,10 @@ import Navbar from '../components/navbar/Navbar'
 import Portfolio from '../components/portfolio/Portfolio'
 
 
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 export default function Home() {
   const [scrollHeight, setScrollHeight] = useState(0);
 

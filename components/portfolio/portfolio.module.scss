@@ -1,13 +1,15 @@
-.title {
-    transform: translateY(150px);
-    text-align: center;
-    color: white;
-}
+// .title {
+//     transform: translateY(10px);
+//     text-align: center;
+//     color: white;
+//     overflow: hidden;
+//     padding: 30px 0;
+// }
 
 .portfolio {
     display: grid;
     background-color: black;
-    margin: 100px 0 0;
+    // margin: 100px 0 0;
     padding: 100px 100px;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 2rem;

@@ -1,6 +1,8 @@
 import React from 'react'
 import styles from './footer.module.scss'
-import { faGithub } from '@fortawesome/free-regular-svg-icons';
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithubSquare, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
 
 const Footer = () => {
@@ -16,18 +18,20 @@ const Footer = () => {
             </div>
             <div className={styles.social}>
                 <div className={styles.designby}>
-                    Design by Samuel Solomon
+                    <p>Design by Samuel Solomon</p>
                 </div>
                 <div className={styles.socialLinks}>
                     <a href="https://linkedin.com" target="_blank" rel="noreferrer">
                         {/* <i className="fab fa-linkedin linkedin"></i> */}
-                        <faGithub />
+                        <FontAwesomeIcon icon={faLinkedin} className={styles.linkedin}/>
                     </a>
                     <a href="https://stackoverflow.com" target="_blank" rel="noreferrer">
-                        <i className="fab fa-stack-overflow stackoverflow"></i>
+                        {/* <i className="fab fa-stack-overflow stackoverflow"></i> */}
+                        <FontAwesomeIcon icon={faStackOverflow} className={styles.stackoverflow}/>
                     </a>
                     <a href="https://github.com" target="_blank" rel="noreferrer">
-                        <i className="fab fa-github-square github"></i>
+                        {/* <i className="fab fa-github-square github"></i> */}
+                        <FontAwesomeIcon icon={faGithubSquare} className={styles.github}/>
                     </a>
                 </div>
             </div>

@@ -9,7 +9,7 @@ import Image from 'next/image';
 const Portfolio = () => {
     return (
         <>
-        <h1 className={styles.title}>Projects</h1>
+        {/* <h1 className={styles.title}>Projects</h1> */}
         <section className={styles.portfolio}>
             {
                 PortfolioData.map((portfolioItem) => (
