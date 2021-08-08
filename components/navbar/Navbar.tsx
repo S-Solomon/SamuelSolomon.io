@@ -4,7 +4,8 @@ interface Props {
     isScrolling: number;
 }
 
-const Navbar = ( {isScrolling}: Props ) => {
+
+const Navbar = ({ isScrolling }: Props) => {
 
     const toTheTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -12,7 +13,7 @@ const Navbar = ( {isScrolling}: Props ) => {
 
     return (
     <nav
-        className={styles.navbar}
+        className={`${styles.navbar} ${isScrolling > 20 ? `${styles.scrolling}` : null }`}
     >
         <div className={styles.logo} onClick={toTheTop}>
         Samuel Solomon
