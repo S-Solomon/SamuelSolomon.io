@@ -10,7 +10,7 @@ const Portfolio = () => {
     return (
         <>
         {/* <h1 className={styles.title}>Projects</h1> */}
-        <section className={styles.portfolio}>
+        <section className={styles.portfolio} id="projects">
             {
                 PortfolioData.map((portfolioItem) => (
                     <div className={styles.gridItem} key={portfolioItem.id}>

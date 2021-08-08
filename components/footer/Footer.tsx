@@ -7,7 +7,7 @@ import { faLinkedin, faGithubSquare, faStackOverflow } from '@fortawesome/free-b
 
 const Footer = () => {
     return (
-        <footer className={styles.footer}>
+        <footer className={styles.footer} >
             <div className={styles.info}>
                 <h1>Samuel Solomon</h1>
                 <p>Based in Your City</p>
@@ -20,7 +20,7 @@ const Footer = () => {
                 <div className={styles.designby}>
                     <p>Design by Samuel Solomon</p>
                 </div>
-                <div className={styles.socialLinks}>
+                <div className={styles.socialLinks} >
                     <a href="https://linkedin.com" target="_blank" rel="noreferrer">
                         {/* <i className="fab fa-linkedin linkedin"></i> */}
                         <FontAwesomeIcon icon={faLinkedin} className={styles.linkedin}/>
