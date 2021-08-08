@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import About from '../components/about/About'
 import Collab from '../components/collab/Collab';
 import Cover from '../components/cover/Cover'
+import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar'
 import Portfolio from '../components/portfolio/Portfolio'
 
@@ -24,6 +25,7 @@ export default function Home() {
       <About />
       <Portfolio />
       <Collab />
+      <Footer />
     </>
   )
 }
