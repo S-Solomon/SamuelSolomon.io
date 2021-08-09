@@ -1,5 +1,5 @@
 import styles from "./navbar.module.scss";
-// import {useState} from 'react'
+// import { motion } from "framer-motion"
 
 interface Props {
     isScrolling: number;
@@ -26,7 +26,7 @@ const Navbar = ({ isScrolling }: Props) => {
             </div>
 
             <nav className={styles.navbar}>
-                <a className={styles.link} href="#">
+                <a className={styles.link} href="#" >
                     <span>Home</span>
                 </a>
                 <a className={styles.link} href="#about">
