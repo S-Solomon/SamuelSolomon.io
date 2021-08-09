@@ -1,11 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
 import styles from './about.module.scss'
-// import removeBg from '../../public/removeBg.png'
 import Image from 'next/image'
 
-
-const about = () => {
+const About = () => {
     return (
         <div className={styles.container} id="about">
             <div className={styles.description}>
@@ -19,4 +16,4 @@ const about = () => {
     )
 }
 
-export default about
+export default About

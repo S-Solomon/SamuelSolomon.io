@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Head from 'next/head'
 import About from '../components/about/About'
 import Collab from '../components/collab/Collab';
 import Cover from '../components/cover/Cover'
@@ -24,6 +25,12 @@ export default function Home() {
   }, [scrollHeight]);
   return (
     <>
+      <Head>
+        <title>Samuel Solomon</title>
+        <meta name="viewport" content="width=device-width" />
+        <meta charSet="UTF-8"/>
+        <meta name="description" content="" /> 
+      </Head>
       <Navbar isScrolling={scrollHeight}/>
       <Cover />
       <About />
