@@ -1,13 +1,12 @@
 import styles from "./navbar.module.scss";
-// import { motion } from "framer-motion"
-
+import { useState } from 'react'
 interface Props {
     isScrolling: number;
 }
 
 
 const Navbar = ({ isScrolling }: Props) => {
-
+    const [showLinks, setShowLinks] = useState(true)
 
     const toTheTop = () => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
@@ -19,24 +18,24 @@ const Navbar = ({ isScrolling }: Props) => {
                 Samuel Solomon
             </div>
 
-            <div className={styles.hamburger}>
+            <div className={styles.hamburger} onClick={() => setShowLinks(!showLinks)}>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
 
-            <nav className={styles.navbar}>
+            <nav className={styles.navbar} id={showLinks ? `${styles.hidden}` : ""}>
                 <a className={styles.link} href="#" >
-                    <span>Home</span>
+                    Home
                 </a>
                 <a className={styles.link} href="#about">
-                    <span>About</span>
+                    About
                 </a>
                 <a className={styles.link} href="#projects">
-                    <span>Projects</span>
+                    Projects
                 </a>
                 <a className={styles.link} href="#footer">
-                    <span>Contact</span>
+                    Contact
                 </a>
             </nav>
 

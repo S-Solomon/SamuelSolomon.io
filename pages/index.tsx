@@ -29,8 +29,15 @@ export default function Home() {
         <title>Samuel Solomon</title>
         <meta name="viewport" content="width=device-width" />
         <meta charSet="UTF-8"/>
-        <meta name="description" content="" /> 
+        <meta name="description" content="" />
+        
+        <meta name="og:title" property="og:title" content="" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="" />  
+        <meta property="og:url" content="" />
+        <meta property="og:site_name" content="" />  
       </Head>
+
       <Navbar isScrolling={scrollHeight}/>
       <Cover />
       <About />
