@@ -28,6 +28,9 @@ const Navbar = ({ isScrolling }: Props) => {
                 <a className={styles.link} href="#" >
                     Home
                 </a>
+                <a className={styles.link} href="#skills">
+                    Skills
+                </a>
                 <a className={styles.link} href="#about">
                     About
                 </a>

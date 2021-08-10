@@ -10,6 +10,7 @@ import Portfolio from '../components/portfolio/Portfolio'
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Skills from '../components/skills/Skills';
 
 
 export default function Home() {
@@ -40,6 +41,7 @@ export default function Home() {
 
       <Navbar isScrolling={scrollHeight}/>
       <Cover />
+      <Skills />
       <About />
       <Portfolio />
       <Collab />
