@@ -5,9 +5,9 @@ const Cover = () => {
     return (
         <div className={styles.container}>
             <video autoPlay loop muted >
-                <source src="/coverVideo.mp4" type="video/mp4" />
+                <source src="/Video2.mp4" type="video/mp4" />
             </video>
-            <h1>Name LastName</h1>
+            <h1>Samuel Solomon</h1>
             <p>Developer | Designer | Content Creator</p>
         </div>
     )

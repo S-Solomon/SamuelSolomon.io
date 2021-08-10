@@ -2,7 +2,7 @@
     height: 100vh;
     width: 100%;
     object-fit: contain;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
+    // box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.7);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,14 +17,22 @@
     }
 
     h1 {
-        color: white;
         font-size: 6rem;
+        color: transparent;
+        background-clip: text;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
     }
 
     p {
-        color: white;
         margin-top: 8px;
         font-size: 2rem;
+        color: transparent;
+        background-clip: text;
+        background-size: cover;
+        -webkit-background-clip: text;
+        background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
     }
 }
 

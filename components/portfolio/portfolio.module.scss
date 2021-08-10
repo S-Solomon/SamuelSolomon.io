@@ -8,16 +8,7 @@
 
 .portfolio {
     background-color: black;
-    // display: grid;
-    // padding: 100px 100px;
-    // grid-template-columns: repeat(3, 1fr);
-    // grid-gap: 2rem;
-    // @media screen and (max-width:920px){
-    //     grid-template-columns: repeat(2, 1fr);
-    // }
-    // @media screen and (max-width:670px){
-    //     grid-template-columns: repeat(1, 1fr);
-    // }
+    // background-color: white;
 
     .title {
         display: flex;
@@ -25,8 +16,12 @@
         align-self: center;
         padding: 50px 0;
         h1 {
-            color: white;
-            font-size: 2rem;
+            font-size: 3rem;
+            color: transparent;
+            background-clip: text;
+            background-size: cover;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(147deg,#f90fd8,#f54377 26%,#fc1c1c 50%,#ffc30d 75%,#72fb59);
         }
     }
     .container {
@@ -49,10 +44,12 @@
             h6 {
                 font-size: 1.5rem;
                 color: white;
+                // color: black;
                 padding: 10px 0;
             }
             p {
                 color: white;
+                // color: black;
             }
             img {
                 width: 100%;

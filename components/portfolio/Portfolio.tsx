@@ -11,7 +11,7 @@ const Portfolio = () => {
         <>
         <section className={styles.portfolio} id="projects">
             <div className={styles.title}>
-                <h1>My Projects</h1>
+                <h1>Here are my Projects</h1>
             </div>
             <div className={styles.container}>
                 {

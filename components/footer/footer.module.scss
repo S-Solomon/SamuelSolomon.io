@@ -16,6 +16,12 @@
         margin: 0 auto;
         h1 {
             padding-bottom: 15px;
+            font-size: 4rem;
+            color: transparent;
+            background-clip: text;
+            background-size: cover;
+            -webkit-background-clip: text;
+            background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
         }
     }
 
@@ -24,6 +30,16 @@
         padding: 100px 0 30px 50px;
         width: 70%;
         margin: 0 auto;
+        h3 {
+            cursor: pointer;
+        }
+        p {
+            padding: 10px 0;
+        }
+        a {
+            color: white;
+            cursor: pointer;
+        }
     }
 
     .social {
@@ -41,17 +57,25 @@
             display: grid;
             width: 100%;
             grid-template-columns: 1fr 1fr 1fr;
-            .linkedin, .stackoverflow, .github {
+            .links {
                 color: white;
                 font-size: 2.5rem;
                 margin: 0 auto;
                 padding-bottom: 10px;
-                border-bottom: 4px solid transparent;
+                text-decoration: none;
+                position: relative;
+                display: inline-block;
+                border-bottom: 2px solid transparent;
+                &:hover {
+                    border-color: white;
+                    transition: all 0.3s ease-in-out;
+                }
             }
-            .linkedin:hover, .stackoverflow:hover, .github:hover {
-                border-color: white;
-                transition: all 0.3s ease-in-out;
-            }
+            
+            // .linkedin:hover, .stackoverflow:hover, .github:hover {
+            //     // border-color: white;
+            //     // transition: all 0.3s ease-in-out;
+            // }
         }
 
         .designby {

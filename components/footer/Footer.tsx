@@ -15,6 +15,7 @@ const Footer = () => {
             <div className={styles.contact}>
                 <h3>Contact me</h3>
                 <p>And let&apos;s get down to work</p>
+                <a href="mailto:mrsamuelsolomon@gmail.com">@Mrsamuelsolomon@gmail.com</a>
             </div>
             <div className={styles.social}>
                 <div className={styles.designby}>
@@ -22,16 +23,13 @@ const Footer = () => {
                 </div>
                 <div className={styles.socialLinks} >
                     <a href="https://linkedin.com" target="_blank" rel="noreferrer">
-                        {/* <i className="fab fa-linkedin linkedin"></i> */}
-                        <FontAwesomeIcon icon={faLinkedin} className={styles.linkedin}/>
+                        <FontAwesomeIcon icon={faLinkedin} className={styles.links}  />
                     </a>
                     <a href="https://stackoverflow.com" target="_blank" rel="noreferrer">
-                        {/* <i className="fab fa-stack-overflow stackoverflow"></i> */}
-                        <FontAwesomeIcon icon={faStackOverflow} className={styles.stackoverflow}/>
+                        <FontAwesomeIcon icon={faStackOverflow} className={styles.links}  />
                     </a>
                     <a href="https://github.com" target="_blank" rel="noreferrer">
-                        {/* <i className="fab fa-github-square github"></i> */}
-                        <FontAwesomeIcon icon={faGithubSquare} className={styles.github}/>
+                        <FontAwesomeIcon icon={faGithubSquare} className={styles.links}  />
                     </a>
                 </div>
             </div>

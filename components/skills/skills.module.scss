@@ -5,7 +5,12 @@
     .title {
         text-align: center;
         h1 {
-            font-size: 2rem;
+            font-size: 3rem;
+            color: transparent;
+            background-clip: text;
+            background-size: cover;
+            -webkit-background-clip: text;
+            background-image: linear-gradient(147deg,#f90fd8,#f54377 26%,#fc1c1c 50%,#ffc30d 75%,#72fb59);
         }
         p {
             padding: 20px 0;
