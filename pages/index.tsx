@@ -8,8 +8,8 @@ import Navbar from '../components/navbar/Navbar'
 import Portfolio from '../components/portfolio/Portfolio'
 
 
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { library } from '@fortawesome/fontawesome-svg-core';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Skills from '../components/skills/Skills';
 
 
@@ -30,7 +30,7 @@ export default function Home() {
         <title>Samuel Solomon</title>
         <meta name="viewport" content="width=device-width" />
         <meta charSet="UTF-8"/>
-        <meta name="description" content="" />
+        <meta name="description" content="Hi i am a web developer. I build user interfaces and prototypes from wirreframes and designs." />
         
         <meta name="og:title" property="og:title" content="" />
         <meta property="og:type" content="website" />

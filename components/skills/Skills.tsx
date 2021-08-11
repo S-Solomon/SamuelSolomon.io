@@ -6,10 +6,10 @@ const Skills = () => {
     return (
         <section className={styles.skillsSection} id="skills">
             <div className={styles.title}>
-                <h1>Take a look at my Skills.</h1>
+                <h1>Technologies and languages I speak.</h1>
                 <p>
                     These are the skills and programming languages
-                    that I have learnt until now. I am constantly learning new <br />technologies, therefore I may update this
+                    that I have learnt until now. I am constantly learning new <br />technologies, consequently updating this
                     section more often.
                 </p>
             </div>
