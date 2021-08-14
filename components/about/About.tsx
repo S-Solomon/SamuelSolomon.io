@@ -10,7 +10,7 @@ const About = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet autem deleniti quam quos soluta, reiciendis totam veritatis dicta sunt maxime? Iure eaque veniam repellat soluta distinctio eveniet, culpa dolores recusandae?</p>
             </div>
             <div className={styles.wrapper}>
-                <Image src="/removeBg.png" width={250} height={250} alt="picture of the author"  />
+                <Image src="/aboutImage.svg" width={450} height={350} alt="picture of the author"  />
             </div>
         </div>
     )
