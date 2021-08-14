@@ -69,6 +69,7 @@
                 content: "";
                 position: absolute;
                 background: #fff;
+                background: black;
                 width: 100%;
                 height: 2px;
                 bottom: 0;
@@ -99,9 +100,14 @@
 }
 .header.scrolling .logo{
     color: white;
+    transition: all 0.5s ease;
 }
 .header.scrolling .link{
     color: white;
+    transition: all 0.5s ease;
+}
+.header.scrolling .link::before{
+    background: white;
 }
 
 @media (max-width: 768px) {
