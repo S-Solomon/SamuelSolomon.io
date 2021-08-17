@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from './about.module.scss'
-import Image from 'next/image'
+import AboutSvg from '../IconComponent/AboutSvg'
+// import Image from 'next/image'
 
 const About = () => {
     return (
@@ -10,7 +11,8 @@ const About = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet autem deleniti quam quos soluta, reiciendis totam veritatis dicta sunt maxime? Iure eaque veniam repellat soluta distinctio eveniet, culpa dolores recusandae?</p>
             </div>
             <div className={styles.wrapper}>
-                <Image src="/developer.svg" width={450} height={250} alt="picture of the author"  />
+                <AboutSvg />
+                {/* <Image src="/svgRemix.svg" width={450} height={250} alt="picture of the author"  /> */}
             </div>
         </div>
     )
