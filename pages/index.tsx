@@ -31,7 +31,7 @@ export default function Home() {
         <title>Samuel Solomon</title>
         <meta name="viewport" content="width=device-width" />
         <meta charSet="UTF-8"/>
-        <meta name="description" content="Hi i am a web developer. I build user interfaces and prototypes from wirreframes and designs." />
+        <meta name="description" content="Hi i am a Web developer | frontend engineer. I build user interfaces and prototypes from wireframes and designs." />
         
         <meta name="og:title" property="og:title" content="" />
         <meta property="og:type" content="website" />
