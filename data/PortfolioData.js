@@ -9,7 +9,8 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon',
         Livepreview: 'www.google.com',
         Title: 'Project 1',
-        Text: 'Text for the first project goes here'
+        Text: 'Text for the first project goes here',
+        category: 'React'
     },
     {
         id: 2,
@@ -17,7 +18,8 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon',
         Livepreview: 'www.google.com',
         Title: 'Project 2',
-        Text: 'Text for the second project goes here'
+        Text: 'Text for the second project goes here',
+        category: 'Typescript'
     },
     {
         id: 3,
@@ -25,7 +27,8 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon',
         Livepreview: 'www.google.com',
         Title: 'Project 3',
-        Text: 'Text for the third project goes here'
+        Text: 'Text for the third project goes here',
+        category: 'React'
     },
     {
         id: 4,
@@ -33,7 +36,8 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon',
         Livepreview: 'www.google.com',
         Title: 'Project 3',
-        Text: 'Text for the third project goes here'
+        Text: 'Text for the third project goes here',
+        category: 'React'
     },
     {
         id: 5,
@@ -41,7 +45,8 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon',
         Livepreview: 'www.google.com',
         Title: 'Project 3',
-        Text: 'Text for the third project goes here'
+        Text: 'Text for the third project goes here',
+        category: 'Python'
     },
     {
         id: 6,
@@ -49,7 +54,8 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon',
         Livepreview: 'www.google.com',
         Title: 'Project 3',
-        Text: 'Text for the third project goes here'
+        Text: 'Text for the third project goes here',
+        category: 'Next Js'
     }
 ]
 

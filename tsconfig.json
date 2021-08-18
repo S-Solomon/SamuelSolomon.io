@@ -12,7 +12,9 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "downlevelIteration": true   
+    
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/portfolio/Portfolio.tsx", "pages/index.tsx", "data/PortfolioData.js", "pages/_app.tsx", "components/navbar/Navbar.tsx", "components/cover/Cover.tsx", "components/about/About.tsx"],
   "exclude": ["node_modules"]

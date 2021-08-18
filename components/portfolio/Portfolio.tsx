@@ -1,21 +1,44 @@
 /* eslint-disable @next/next/no-img-element */
+import { useState } from 'react';
 import React from 'react'
 import PortfolioData from '../../data/PortfolioData'
 import styles from './portfolio.module.scss'
 import LanguageIcon from '@material-ui/icons/Language';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import Image from 'next/image';
+import Buttons from '../Filter/Button'
+
+
+const allCategories = ['All', ...new Set(PortfolioData.map(item => item.category))];
+// console.log(allCategories);
 
 const Portfolio = () => {
+    const [menuItem, setMenuItem] = useState(PortfolioData)
+    const [buttons, setButtons] = useState(allCategories)
+
+    const filter = (button) => {
+        if (button === 'All') {
+            setMenuItem(PortfolioData)
+            return;
+        }
+        const filteredData = PortfolioData.filter(data => data.category === button)
+        setMenuItem(filteredData)
+    }
+
+
+
+
+
     return (
         <>
         <section className={styles.portfolio} id="projects">
             <div className={styles.title}>
                 <h1>My Recent Works</h1>
             </div>
+            <Buttons button={buttons} filter={filter}/>
             <div className={styles.container}>
                 {
-                    PortfolioData.map((portfolioItem) => (
+                    menuItem.map((portfolioItem) => (
                         <div className={styles.gridItem} key={portfolioItem.id}>
                             <div className={styles.portfolioContent}>
                                 <div className={styles.portfolioImage}>
