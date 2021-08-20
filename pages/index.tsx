@@ -7,7 +7,7 @@ import Footer from '../components/footer/Footer';
 import Navbar from '../components/navbar/Navbar'
 import Portfolio from '../components/portfolio/Portfolio'
 import Skills from '../components/skills/Skills';
-import PortfolioData from '../data/PortfolioData';
+// import PortfolioData from '../data/PortfolioData';
 
 
 
