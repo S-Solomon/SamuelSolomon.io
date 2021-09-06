@@ -1,15 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
+import React, { ReactElement } from 'react';
 import styles from './about.module.scss'
 // import AboutSvg from '../IconComponent/AboutSvg'
 import Image from 'next/image'
 
 
-const About = () => {
+const About = (): ReactElement => {
     return (
         <div className={styles.container} id="about">
             <div className={styles.description}>
                 <h1>Hi, I’m Samuel. Nice to meet you.</h1>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet autem deleniti quam quos soluta, reiciendis totam veritatis dicta sunt maxime? Iure eaque veniam repellat soluta distinctio eveniet, culpa dolores recusandae?</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet autem </p> 
+                <p>soluta, reiciendis totam veritatis dicta sunt maxime deleniti quam quos</p> 
+                <p>Iure eaque veniam repellat soluta distinctio eveniet, culpa dolores recusandae?</p>
             </div>
             <div className={styles.wrapper}>
                 {/* <AboutSvg  /> */}

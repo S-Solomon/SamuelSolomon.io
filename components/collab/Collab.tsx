@@ -1,7 +1,7 @@
-import React from 'react'
+import React, { ReactElement } from 'react';
 import styles from './collab.module.scss'
 
-const Collab = () => {
+const Collab = (): ReactElement => {
     return (
         <div className={styles.container}>
             <div className={styles.info}>

@@ -1,7 +1,8 @@
+import React, { ReactElement } from 'react';
 import styles from './cover.module.scss'
 
 
-const Cover = () => {
+const Cover = (): ReactElement => {
     return (
         <div className={styles.container}>
             <video autoPlay loop muted >
