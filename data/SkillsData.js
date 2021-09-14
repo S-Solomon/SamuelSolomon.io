@@ -7,7 +7,7 @@ import Typescript from '../public/skills/typescript.png'
 import Git from '../public/skills/Git.png'
 import Github from '../public/skills/GitHub.png'
 import Jest from '../public/skills/jest.svg'
-import ReactTestingLibrary from '../public/skills/goat.png'
+import ReactTestingLibrary from '../public/skills/octopus.png'
 
 const SkillsData =  [
     {
