@@ -9,8 +9,8 @@ const Skills = () => {
                 <h1>Technologies and languages I speak.</h1>
                 <p>
                     These are the skills and programming languages
-                    that I have learnt until now. I am constantly learning new <br />technologies, consequently updating this
-                    section more often.
+                    that I have learnt until now. I am open to learning new <br />technologies, consequently updating this
+                    section.
                 </p>
             </div>
             

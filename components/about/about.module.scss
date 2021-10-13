@@ -3,8 +3,30 @@
     background-color: white;
     color: black;
     height: 70vh;
-    padding: 100px 0;
+    // padding: 100px 0;
     // margin: 100px 0;
+    padding: 0rem 1rem;
+        @media (min-width: 768px) {
+            padding: 0 2rem;
+        }
+        @media screen and (min-width: 900px) {
+            padding: 0 8rem;
+        }
+        @media screen and (min-width: 1024px) {
+            padding: 0 4rem;
+        }
+        @media screen and (min-width: 1300px) {
+            padding: 0 8rem;
+        }
+        @media screen and(min-width: 1440px) {
+            padding: 0 12rem;
+        }
+        @media screen and (min-width: 1900px) {
+            padding: 0 18rem;
+        }
+        @media screen and(min-width: 2100px) {
+            padding: 0 20rem;
+        }
     @media only screen and (max-width: 960px) {
         flex-direction: column;
         padding: 0;
@@ -20,6 +42,7 @@
             width: 90%;
             margin: 0 auto;
             padding: 40px 20px 50px 20px;
+            text-align: center;
         }
         h1 {
             margin-bottom: 30px;
@@ -36,7 +59,6 @@
         }
         p {
             line-height: 1.9;
-            text-align: center;
         }
     }
 
@@ -48,7 +70,7 @@
         overflow: hidden;
         @media only screen and (max-width: 960px) {
             width: 100%;
-        margin-bottom: 50px;
+            margin-bottom: 50px;
         }
     }
 }    
