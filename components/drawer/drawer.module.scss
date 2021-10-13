@@ -5,11 +5,22 @@
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.3);
-    z-index: -1;
+    z-index: 0;
+    cursor: pointer;
+}
+
+.close {
+    color: black;
+    width: 20px;
+    height: 25px;
+    position: absolute;
+    top: 3%;
+    right: 5%;
     cursor: pointer;
 }
 
 .drawer {
+    position: relative;
     .nav {
         background-color: white;
     color: black;
@@ -21,6 +32,7 @@
     height: 100vh;
     padding: 100px 30px 40px;
     transition: width  0.5s ease-in;
+
     }
     .nav.active {
         left: 0;
@@ -34,14 +46,16 @@
         li {
             list-style: none;
             margin: 10px 0;
+            width: 100%;
             a {
+                text-align: center;
                 text-decoration: none;
                 color: #000;
                 cursor: pointer;
                 display: block;
                 padding: 10px 15px;
                 font-size: 16px;
-                border-radius: 6px;
+                border-bottom: 1px solid rgb(232, 229, 229);
                 &:hover, &:active {
                     // background: #057FFF;
                     // color: white;

@@ -1,14 +1,16 @@
 import React from "react";
 import styles from "./drawer.module.scss";
 import { Link } from "react-scroll";
-// import Backdrop from "./Backdrop";
+import Backdrop from "./Backdrop";
+import { AiOutlineClose } from 'react-icons/ai'
 
-const SideDrawer = () => {
+const SideDrawer = ({closedrawer}: any) => {
     return (
         <React.Fragment>
             <div className={styles.drawer}>
                 <nav className={styles.nav}>
                     <ul>
+                        <AiOutlineClose className={styles.close} onClick={closedrawer}/>  
                         <li>
                             <Link
                                 to="/"
@@ -52,7 +54,7 @@ const SideDrawer = () => {
                     </ul>
                 </nav>
             </div>
-            {/* <Backdrop /> */}
+            <Backdrop />
         </React.Fragment>
     );
 };
