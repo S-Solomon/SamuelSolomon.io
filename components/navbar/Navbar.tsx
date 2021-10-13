@@ -1,5 +1,6 @@
 import styles from "./navbar.module.scss";
 import { useState } from 'react'
+
 interface Props {
     isScrolling: number;
 }
@@ -25,7 +26,7 @@ const Navbar = ({ isScrolling }: Props) => {
             </div>
 
             <nav className={styles.navbar} id={showLinks ? `${styles.hidden}` : ""}>
-                <a className={styles.link} href="#" >
+                <a className={styles.link} href="/" >
                     Home
                 </a>
                 <a className={styles.link} href="#skills">
@@ -37,11 +38,7 @@ const Navbar = ({ isScrolling }: Props) => {
                 <a className={styles.link} href="#projects">
                     Projects
                 </a>
-                <a className={styles.link} href="#footer">
-                    Contact
-                </a>
             </nav>
-
         </header>
     );
 };
