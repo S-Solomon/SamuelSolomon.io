@@ -1,6 +1,5 @@
 import styles from "./navbar.module.scss";
 import { useState } from "react";
-// import Link from "next/Link";
 import { Link } from 'react-scroll'
 
 interface Props {
@@ -25,29 +24,48 @@ const Navbar = ({ isScrolling }: Props) => {
         Samuel Solomon
       </div>
 
-      <div
-        className={styles.hamburger}
-        onClick={() => setShowLinks(!showLinks)}
-      >
+      <div className={styles.hamburger}>
         <span></span>
         <span></span>
         <span></span>
       </div>
 
       <nav className={styles.navbar} id={showLinks ? `${styles.hidden}` : ""}>
-        <Link to='/' smooth={true} duration={100}>
-          <a className={styles.link} onClick={toTheTop}>
-            Home
-          </a>
+        <Link
+          to='/'
+          smooth={true}
+          duration={100}
+          className={styles.link}
+          onClick={toTheTop}
+        >
+          Home
         </Link>
-        <Link to='skills' smooth={true} duration={100}>
-          <a className={styles.link}>Skills</a>
+        <Link
+          to='skills'
+          smooth={true}
+          duration={100}
+          activeClass='active'
+          className={styles.link}
+        >
+          Skills
         </Link>
-        <Link to='about' smooth={true} duration={100}>
-          <a className={styles.link}>About</a>
+        <Link
+          to='about'
+          smooth={true}
+          duration={100}
+          activeClass='active'
+          className={styles.link}
+        >
+          About
         </Link>
-        <Link to='projects' smooth={true} duration={100}>
-          <a className={styles.link}>Projects</a>
+        <Link
+          to='projects'
+          smooth={true}
+          duration={100}
+          activeClass='active'
+          className={styles.link}
+        >
+          Projects
         </Link>
       </nav>
     </header>
