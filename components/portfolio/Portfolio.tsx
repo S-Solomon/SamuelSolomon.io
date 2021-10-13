@@ -56,8 +56,8 @@ const Portfolio = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                    <h6>{portfolioItem.Title}</h6>
-                                    <p>{portfolioItem.Text}</p>
+                                <h6>{portfolioItem.Title}</h6>
+                                <p>{portfolioItem.Text}</p>
                             </div>
                         </div>
                     ))
