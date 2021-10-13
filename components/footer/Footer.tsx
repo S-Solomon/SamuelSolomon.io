@@ -28,7 +28,7 @@ const Footer = () => {
                     <a href="https://stackoverflow.com" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faStackOverflow} className={styles.links}  />
                     </a>
-                    <a href="https://github.com" target="_blank" rel="noreferrer">
+                    <a href="https://github.com/S-Solomon" target="_blank" rel="noreferrer">
                         <FontAwesomeIcon icon={faGithubSquare} className={styles.links}  />
                     </a>
                 </div>

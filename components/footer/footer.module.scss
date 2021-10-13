@@ -18,10 +18,14 @@
             padding-bottom: 15px;
             font-size: 4rem;
             color: transparent;
+            color: #fff;
             background-clip: text;
             background-size: cover;
             -webkit-background-clip: text;
             background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
+        }
+        p{
+            font-size: 1.3rem;
         }
     }
 
@@ -39,6 +43,7 @@
         a {
             color: white;
             cursor: pointer;
+            font-size: 1.1rem;
         }
     }
 

@@ -9,7 +9,7 @@ const Cover = (): ReactElement => {
                 <source src="/coverVideo.mp4" type="video/mp4" />
             </video>
             <h1>Samuel Solomon</h1>
-            <p>Developer | Designer | Content Creator</p>
+            <p>Javascript | React | Developer</p>
             <svg className={styles.scroll} xmlns="http://www.w3.org/2000/svg" width="40" height="77" viewBox="0 0 40 77">
                     <g id="scroll" transform="translate(-253 -787)">
                         <g id="Rectangle_12" data-name="Rectangle 12" transform="translate(253 787)" fill="none" stroke="#fff" strokeWidth="4">
