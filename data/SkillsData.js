@@ -8,6 +8,7 @@ import Git from '../public/skills/Git.png'
 import Github from '../public/skills/GitHub.png'
 import Jest from '../public/skills/jest.svg'
 import ReactTestingLibrary from '../public/skills/octopus.png'
+import styledComponents from '../public/skills/styled-components.png'
 
 const SkillsData =  [
     {
@@ -69,6 +70,12 @@ const SkillsData =  [
         image: ReactTestingLibrary,
         title: 'Testing Library',
         description: 'ReactTestingLibrary'
+    },
+    {
+        id: 11,
+        image: styledComponents,
+        title: 'Styled Components',
+        description: 'styled components'
     }
 ]
 
