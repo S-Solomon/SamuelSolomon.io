@@ -4,10 +4,11 @@
     background-color: black;
     color: white;
     padding-top: 180px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    z-index: -2;
+    // position: fixed;
+    position: relative;
+    // bottom: 0;
+    // left: 0;
+    // z-index: -2;
 
     .info {
         font-size: 35px;
