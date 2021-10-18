@@ -54,7 +54,7 @@ const SideDrawer = ({closedrawer}: any) => {
                     </ul>
                 </nav>
             </div>
-            <Backdrop />
+            <Backdrop backdropclickhandler={closedrawer}/>
         </React.Fragment>
     );
 };
