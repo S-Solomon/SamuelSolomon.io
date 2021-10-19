@@ -35,7 +35,7 @@ const PortfolioData = [
         id: 4,
         Image: img1,
         Githublink: 'https://github.com/S-Solomon',
-        Livepreview: 'www.google.com',
+        Livepreview: 'https://www.samuelsolomon.io/',
         Title: 'SamuelSolomon.io',
         Text: 'NextJs | Typescript | Sass',
         category: 'Typescript nextjs'
