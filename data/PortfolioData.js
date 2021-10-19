@@ -1,12 +1,12 @@
-import img1 from '../public/img1.jpg'
-import img2 from '../public/img2.jpg'
-import img3 from '../public/img3.jpg'
-// import appmodern from '../public/screenshots/appmodern.png'
+import appmodern from '../public/screenshots/appmodern.png'
+import portfoliowebsite from '../public/screenshots/portfoliowebsite.png'
+import covid19 from '../public/screenshots/covid-19.png'
+import samuelsolomon from '../public/screenshots/samuelsolomon.io.png'
 
 const PortfolioData = [
     {
         id: 1,
-        Image: img1,
+        Image: appmodern,
         Githublink: 'https://github.com/S-Solomon/App-Modern',
         Livepreview: 'https://app-modern-woad.vercel.app/',
         Title: 'App Modern',
@@ -15,7 +15,7 @@ const PortfolioData = [
     },
     {
         id: 2,
-        Image: img1,
+        Image: portfoliowebsite,
         Githublink: 'https://github.com/S-Solomon/ReactJSPortfolio-v2',
         Livepreview: 'https://react-js-portfolio-v2.vercel.app/',
         Title: 'Portfolio Website',
@@ -24,7 +24,7 @@ const PortfolioData = [
     },
     {
         id: 3,
-        Image: img1,
+        Image: covid19,
         Githublink: 'https://github.com/S-Solomon/Covid19-Stats',
         Livepreview: 'https://covid19-stats-delta.vercel.app/',
         Title: 'Covid-19 Stats',
@@ -33,7 +33,7 @@ const PortfolioData = [
     },
     {
         id: 4,
-        Image: img1,
+        Image: samuelsolomon,
         Githublink: 'https://github.com/S-Solomon/SamuelSolomon.io',
         Livepreview: 'https://www.samuelsolomon.io',
         Title: 'SamuelSolomon.io',
