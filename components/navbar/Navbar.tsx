@@ -74,7 +74,7 @@ const Navbar = ({ isScrolling }: Props) => {
                     <Link
                         to="projects"
                         smooth={true}
-                        duration={100}
+                        duration={200}
                         activeClass="active"
                         className={styles.link}
                     >
