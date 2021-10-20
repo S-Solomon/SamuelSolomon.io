@@ -28,7 +28,7 @@ const PortfolioData = [
         Githublink: 'https://github.com/S-Solomon/Covid19-Stats',
         Livepreview: 'https://covid19-stats-delta.vercel.app/',
         Title: 'Covid-19 Stats',
-        Text: 'Typescript | API | Styled-Components',
+        Text: 'Typescript | API | Styled-Components | React',
         category: 'Typescript'
     },
     {
