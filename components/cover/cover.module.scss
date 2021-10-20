@@ -25,6 +25,13 @@
         background-size: cover;
         -webkit-background-clip: text;
         background-image: url(https://media2.giphy.com/media/dAWZiSMbMvObDWP3aA/200w.gif?cid=82a1493byp37003a7qbmajj1l5tg7mcliwmw1twdt960cw2l&ct=g&rid=200w.gif);
+
+        @media screen and (min-width: 768px) {
+            font-size: 5rem;
+        }
+        @media screen and (min-width: 1024px) {
+            font-size: 6rem;
+        }
     }
 
     p {

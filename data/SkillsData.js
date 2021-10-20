@@ -14,19 +14,19 @@ const SkillsData =  [
     {
         id: 1,
         image: Html,
-        title: 'HTML',
+        title: 'HTML5',
         description: 'html logo'
     },
     {
         id: 2,
         image: Css,
-        title: 'CSS',
+        title: 'CSS3',
         description: 'css logo'
     },
     {
         id: 3,
         image: Javascript,
-        title: 'Javascript',
+        title: 'Javascript(ES6)',
         description: 'javascript logo'
     },
     {
