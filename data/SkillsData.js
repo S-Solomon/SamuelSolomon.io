@@ -9,22 +9,26 @@ import Github from '../public/skills/GitHub.png'
 import Jest from '../public/skills/jest.svg'
 import ReactTestingLibrary from '../public/skills/octopus.png'
 import styledComponents from '../public/skills/styled-components.png'
+import Figma from '../public/skills/Figma.png'
+
+import { nanoid } from 'nanoid'
+
 
 const SkillsData =  [
     {
-        id: 1,
+        id: nanoid(),
         image: Html,
         title: 'HTML5',
         description: 'html logo'
     },
     {
-        id: 2,
+        id: nanoid(),
         image: Css,
         title: 'CSS3',
         description: 'css logo'
     },
     {
-        id: 3,
+        id: nanoid(),
         image: Javascript,
         title: 'Javascript(ES6)',
         description: 'javascript logo'
@@ -36,46 +40,52 @@ const SkillsData =  [
         description: 'react logo'
     },
     {
-        id: 5,
+        id: nanoid(),
         image: Sass,
         title: 'Scss',
         description: 'sass logo'
     },
     {
-        id: 6,
+        id: nanoid(),
         image: Typescript,
         title: 'Typescript',
         description: 'Typescript logo'
     },
     {
-        id: 7,
+        id: nanoid(),
         image: Git,
         title: 'Git',
         description: 'Git logo'
     },
     {
-        id: 8,
+        id: nanoid(),
         image: Jest,
         title: 'Jest',
         description: 'Jest logo'
     },
     {
-        id: 9,
+        id: nanoid(),
         image: Github,
         title: 'Github',
         description: 'Github logo'
     },
     {
-        id: 10,
+        id: nanoid(),
         image: ReactTestingLibrary,
         title: 'Testing Library',
         description: 'ReactTestingLibrary'
     },
     {
-        id: 11,
+        id: nanoid(),
         image: styledComponents,
         title: 'Styled Components',
         description: 'styled components'
+    },
+    {
+        id: nanoid(),
+        image: Figma,
+        title: 'Figma',
+        description: 'Figma'
     }
 ]
 
