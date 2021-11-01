@@ -42,15 +42,15 @@ const PortfolioData = [
         Text: "Typescript | API | Styled-Components | React ",
         category: "Typescript",
     },
-    // {
-    //     id: 5,
-    //     Image: samuelsolomon,
-    //     Githublink: 'https://github.com/S-Solomon/SamuelSolomon.io',
-    //     Livepreview: 'https://www.samuelsolomon.io',
-    //     Title: 'SamuelSolomon.io',
-    //     Text: 'NextJs | Typescript | Sass',
-    //     category: 'Typescript nextjs'
-    // },
+    {
+        id: 5,
+        Image: samuelsolomon,
+        Githublink: 'https://github.com/S-Solomon/SamuelSolomon.io',
+        Livepreview: 'https://www.samuelsolomon.io',
+        Title: 'This Website',
+        Text: 'NextJs | Typescript | Sass',
+        category: 'Typescript nextjs'
+    },
 ];
 
 export default PortfolioData
