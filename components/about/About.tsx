@@ -15,7 +15,8 @@ const About = (): ReactElement => {
                 <br />
                 <a
                     className={styles.cv}
-                    href="/files/Resume.pdf"
+                    // href="/files/Resume.pdf"
+                    href="https://www.youtube.com/watch?v=y5T5YZ6mYLA"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
